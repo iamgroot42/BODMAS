@@ -12,7 +12,6 @@ import random
 random.seed(1)
 seed(1)
 
-import sys
 import logging
 
 
@@ -21,10 +20,8 @@ from timeit import default_timer as timer
 
 import numpy as np
 import pandas as pd
-import psutil
 import h5py
 # import ember
-from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 
 import bodmas.utils as utils
